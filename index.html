@@ -2,29 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Product Page</title>
 </head>
 <body>
 <!--Your code goes below this line-->
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav aria-label="main navigation" class="navbar" role="navigation">
     <div class="navbar-brand">
         <a class="navbar-item">
-            <img src="https://i.imgur.com/pbXQgWG.png" alt="logo with apple">
+            <img alt="logo with apple" src="https://i.imgur.com/pbXQgWG.png">
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger" role="button">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-menu" id="navbarBasicExample">
         <div class="navbar-end">
             <a class="navbar-item">
                 Info
@@ -39,94 +39,100 @@
             </a>
 
 
-
-                </div>
-            </div>
+        </div>
+    </div>
 </nav>
 <section id="hero">
     <h2>The freshest apples on the market.</h2>
     <form id="form">
         <label for="email"></label><input
-            name="email"
             id="email"
-            type="email"
+            name="email"
             placeholder="Enter your email address"
             required
-            />
-        <input id="submit" type="submit" value="Get Started" class="btn"/>
+            type="email"
+    />
+        <input class="btn" id="submit" type="submit" value="Get Started"/>
     </form>
 </section>
 
-<div class="container">
+
 <section id="info">
-    <div class="grid">
-        <div class="icon"></div>
-        <div class="desc">
-            <h2>Freshest Apples</h2>
-            <p>From Granny Smiths to Fujis, there's always one guarantee when ordering from us - you'll receive supermarket quality apples, no matter where in the world you are. </p>
+    <div class="container">
+        <div class="grid">
+            <div class="icon"></div>
+            <div class="desc">
+                <h2>Freshest Apples</h2>
+                <p>From Granny Smiths to Fujis, there's always one guarantee when ordering from us - you'll receive
+                    supermarket quality apples, no matter where in the world you are. </p>
+            </div>
         </div>
-    </div>
-    <div class="grid">
-        <div class="icon"></div>
-        <div class="desc">
-            <h2>Quick, Affordable Shipping</h2>
-            <p>We have multiple options for shipping speed, from same-day to 1 week, all at different price points, so you can choose how much you want to spend on shipping. Plus, with an order $60 or more, you can get shipping completely free. </p>
+        <div class="grid">
+            <div class="icon"></div>
+            <div class="desc">
+                <h2>Quick, Affordable Shipping</h2>
+                <p>We have multiple options for shipping speed, from same-day to 1 week, all at different price points,
+                    so you can choose how much you want to spend on shipping. Plus, with an order $40 or more, you can
+                    get shipping completely free. </p>
+            </div>
         </div>
-    </div>
-    <div class="grid">
-        <div class="icon"></div>
-        <div class="desc">
-            <h2>Quality Guaranteed</h2>
-            <p>Here at Apple Basket, we make sure that every apple is as fresh as possible before we ship. However, if you have any problems with the apples you received, send them back and you'll get a refund, no strings attached. </p>
+        <div class="grid">
+            <div class="icon"></div>
+            <div class="desc">
+                <h2>Quality Guaranteed</h2>
+                <p>Here at Apple Basket, we make sure that every apple is as fresh as possible before we ship. However,
+                    if you have any problems with the apples you received, send them back and you'll get a refund, no
+                    strings attached. </p>
+            </div>
         </div>
     </div>
 </section>
-    <section id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cXlS72S1Ofw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="pricing">
-        <div class="card">
-            <header class="card-header">
-                <p class="card-header-title">
-                    Mini Basket
-                </p>
-                <button class="card-header-icon" aria-label="more options">
-      <span class="icon">
-        <i class="fas fa-angle-down" aria-hidden="true"></i>
-      </span>
-                </button>
-            </header>
-            <div class="card-content">
-                <div class="content">
-                    Unsure of whether you're ready to make a full investment in the Apple Basket? Don't worry, we have you covered. The Mini Basket is an affordable assortment of 5 apples of your choice that will win you over by the first bite.
-                </div>
-            </div>
-            <footer class="card-footer">
-                <a href="#" class="card-footer-item">Buy Now ($10)</a>
-            </footer>
-        </div>
-        <div class="card">
-            <header class="card-header">
-                <p class="card-header-title">
-                    Classic Basket
-                </p>
-                <button class="card-header-icon" aria-label="more options">
-      <span class="icon">
-        <i class="fas fa-angle-down" aria-hidden="true"></i>
-      </span>
-                </button>
-            </header>
-            <div class="card-content">
-                <div class="content">
+<section id="video">
+    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen frameborder="0" height="315"
+            src="https://www.youtube.com/embed/cXlS72S1Ofw"
+            title="YouTube video player"
+            width="560"></iframe>
 
-                </div>
+
+    </div>
+</section>
+<section id="pricing" class="is-flex is-justify-content-space-around" >
+    <div class="card mx-4 my-4">
+        <header class="card-header">
+            <p class="card-header-title is-centered is-size-4">
+                Mini Basket
+            </p>
+        </header>
+        <div class="card-content">
+            <div class="content">
+                Unsure of whether you're ready to make a full investment in the Apple Basket? Don't worry, we have
+                you covered. The Mini Basket is an affordable assortment of 5 apples of your choice that will win
+                you over by the first bite.
             </div>
-            <footer class="card-footer">
-                <a href="#" class="card-footer-item">Buy Now ($10)</a>
-            </footer>
         </div>
-    </section>
-</div>
+        <footer class="card-footer">
+            <a class="card-footer-item" href="#">Buy Now ($10)</a>
+        </footer>
+    </div>
+    <div class="card mx-4 my-4">
+        <header class="card-header">
+            <p class="card-header-title is-centered is-size-4">
+                Classic Basket
+            </p>
+
+        </header>
+        <div class="card-content">
+            <div class="content">
+                Our most popular basket, the Classic Basket contains 15 fresh apples of your choice for an
+                affordable price.
+            </div>
+        </div>
+        <footer class="card-footer">
+            <a class="card-footer-item" href="#">Buy Now ($20)</a>
+        </footer>
+    </div>
+</section>
 <!--Your code goes above this line-->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
