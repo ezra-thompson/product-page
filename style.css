@@ -3,12 +3,9 @@ html{
 }
 
 body{
-
+background-color: #ebf5ee;
 }
 
-.navbar {
-    color: #C66464;
-}
 
 .price-card {
     max-width: 30%;
