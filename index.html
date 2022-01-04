@@ -7,7 +7,10 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <title>Product Page</title>l
 </head>
 <body>
 <!--Your code goes below this line-->
@@ -43,8 +46,8 @@
     </div>
 </nav>
 <section id="hero">
-    <h2>The freshest apples on the market.</h2>
-    <form id="form">
+    <h2 align="center">The freshest apples on the market.</h2>
+    <form id="form" align="center">
         <label for="email"></label><input
             id="email"
             name="email"
@@ -88,17 +91,17 @@
     </div>
 </section>
 <section id="video">
+    <p align="center">
     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen frameborder="0" height="315"
             src="https://www.youtube.com/embed/cXlS72S1Ofw"
             title="YouTube video player"
             width="560"></iframe>
+    </p>
 
-
-    </div>
 </section>
-<section id="pricing" class="is-flex is-justify-content-space-around" >
-    <div class="card mx-4 my-4">
+<section class="is-flex is-justify-content-space-around" id="pricing">
+    <div class="card mx-4 my-4 price-card">
         <header class="card-header">
             <p class="card-header-title is-centered is-size-4">
                 Mini Basket
@@ -115,7 +118,7 @@
             <a class="card-footer-item" href="#">Buy Now ($10)</a>
         </footer>
     </div>
-    <div class="card mx-4 my-4">
+    <div class="card mx-4 my-4 price-card">
         <header class="card-header">
             <p class="card-header-title is-centered is-size-4">
                 Classic Basket
@@ -132,6 +135,24 @@
             <a class="card-footer-item" href="#">Buy Now ($20)</a>
         </footer>
     </div>
+    <div class="card mx-4 my-4 price-card">
+        <header class="card-header">
+            <p class="card-header-title is-centered is-size-4">
+                Large Basket
+            </p>
+        </header>
+        <div class="card-content">
+            <div class="content">
+                For true fans, the Large Basket contains 25 apples of your choice for only $5 more than the Classic
+                Basket.
+            </div>
+
+            <footer class="card-footer">
+                <a class="card-footer-item" href="#">Buy Now ($25)</a>
+            </footer>
+        </div>
+    </div>
+
 </section>
 <!--Your code goes above this line-->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
