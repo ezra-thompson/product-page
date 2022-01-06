@@ -18,3 +18,20 @@ background-color: #ebf5ee;
 h2 {
 font-size: 25px;
 }
+
+footer{
+    padding: 2rem 1rem 3rem !important;
+}
+
+#hero {
+    padding: 40px;
+}
+
+#video {
+    padding: 45px;
+}
+
+#pricing {
+    padding:20px;
+}
+
